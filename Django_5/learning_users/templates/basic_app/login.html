@@ -1,17 +1,26 @@
 {% extends 'basic_app/base.html' %}
 {% block body_block %}
 
-<div>
+<div> 
     <h1>Please Login</h1>
     <form action="{% url 'basic_app:user_login' %}" method="post">
-        {% csrf_token %}
+        
+            {% csrf_token %}
         <label for="username">Username:</label>
-        <input type="text" name="username" placeholder="Enter Username:">
+        <div>
+            <input type="text" name="username" id="username" placeholder="Enter Username:">
+        </div>
+        
 <br>
         <label for="password">Password:</label>
-        <input type="password" name="password">
+        <div>
+            <input class="form-group" type="password" id="password" name="password">
+        </div>
 <br>
-        <input type="submit" name="" value="Login">
+        <div clas="form-group">
+            <input class="btn btn-primary" type="submit" name="" value="Login">
+        </div>
+        
     </form>
 </div>
 {% endblock %}

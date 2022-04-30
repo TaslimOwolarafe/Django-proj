@@ -1,3 +1,52 @@
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+  }
+  
+  body {
+      background-color: #ef8172 !important;
+      color: black!important;
+  }
+
+  li {
+    display: inline;  
+    float: left;
+    border: 5px;
+    float: left;
+  }
+
+nav {
+    margin: 10px 10%;
+}
+
+h1 {
+    margin: 10px 10%;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.form-group {
+    max-width: 400px;
+}
+
+
+
+
+
+
+
 /* .navig{
     position: fixed;
     display: block;
@@ -9,61 +58,61 @@ li{
     border-right: 1px solid #bbb;
     float: left;
 } */
-ul{
+/* ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: bisque;
     width: 100%;
     overflow: hidden;
-}
+} */
 
-li {
+/* li {
     float: left;
     border-right: 1px solid white;
-}
+} */
 
-li a{
+/* li a{
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* border: 1px solid grey; */
-    border-top: 0px;
-}
+    /* border-top: 0px;
+} */ 
 
 
-li a:hover{
+/* li a:hover{
     background-color: cadetblue;
     color: white;
-}
+} */
 
-.container {
+/* .container-1 {
     /* margin: 20px 20px 20px 20px; */
-    text-align: center;
-    font-family: monospace;
+    /* text-align: center; */
+    /* font-family: monospace; */
     /* border: 40px solid white; */
-    background-color: rgb(73, 127, 128);
-    font-family: cursive;
-}
-a:link:active {
+    /* background-color: rgb(73, 127, 128);
+    font-family: cursive; */
+/* } */ 
+/* a:link:active {
     background-color: grey;
     color: white;
-}
+} */
 
 /* .header {
     border: 1px solid bisque;
     margin: 20px 20px 20px 20px;
     width: 100%; 
 } */
-.helptext {
+/* .helptext {
     font-family: monospace;
     font-size: x-small;
-}
+} */
 
-.lastchild {
+/* .lastchild {
     float: right;
     border-left: 1px solid white;
     background-color: rgb(130, 139, 183);
-}
+} */
