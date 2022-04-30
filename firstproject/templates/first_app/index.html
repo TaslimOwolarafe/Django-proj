@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SALAAMAH PAGE</title>
+    </head>
+    <body>
+        <h1>Hello! This is the index page. Contains an image of SALAAMAH.</h1>
+        {{ inside_index }}
+        <img src="{% static "first_app/images/salaamah.jpg" %}" alt="Image not loaded!">
+        <h1>Hi welcome to django </h1>
+        <h2>Here are your access records:</h2>
+
+        <!-- <div class=""> -->
+            {% if access_records %}
+            <table border="2">
+                <th>Site Name</th>
+                <th>Date Accessed</th>
+                {% for acc in access_records %}
+                <tr>
+                    <td>{{ acc.name|upper|cut:' ' }}</td>
+                    <td>{{ acc.date }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+            {% else %}
+            <p>NO ACCESS RECORDS FOUND! </p>
+            {% endif %}
+           
+        <!-- </div> -->
+
+    </body>
+</html>

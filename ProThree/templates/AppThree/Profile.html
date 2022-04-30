@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+{% load static %}
+<!--we declare the document type and
+  tells the browser the version of html-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>🖤Taslim's Personal site.</title>
+</head>
+
+<body>
+  <table cellspacing='20'>
+    <tr>
+      <td> <img src="{% static "AppThree/images/3QuRIQxu_400x400.jpg" %}" width="200" height="200" alt="Profile Picture!}">
+      </td>
+      <td>
+        <h1>Taslim Owolarafe</h1>
+        <p><em>Python, Django <strong>Web Developer</strong></em></p>
+        <p>I am a Civil Engineering student at <strong><a href="https://oauife.edu.ng/">Obafemi Awolowo University</a></strong>, Ile-Ife.</p>
+      </td>
+    </tr>
+  </table>
+
+  <hr size='2' noshade>
+  <h3>Books and Teaching</h3>
+  <ul>
+    <li>Python and Django Tutorials</li>
+    <ul>
+      <li>Intro-py</li>
+      <li>Django Installation and Intro</li>
+      This part is tough, but I really enjoy it though.
+    </ul>
+    <li>Frontend Web Development</li>
+    <ul>
+      <li>HTML</li> Click <a href="{% static "AppThree/HelloWorld.html" %}"><em>here</em></a> to see how I started.
+      <li>CSS</li>
+    </ul>
+  </ul>
+
+  <h3>Work Experience</h3>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>2015-2019</td>
+        <td>Student at OAUIS.</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>Started my Tech journey.</td>
+      </tr>
+      <tr>
+        <td>2020-2021</td>
+        <td>Started CAD as the COVID lockdown started.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr size='2' noshade>
+  <h3>Skills</h3>
+
+  <table border="2">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>PYTHON</td>
+            <td>🦋🦋🦋🦋🦋</td>
+          </tr>
+          <tr>
+            <td>DJANGO</td>
+            <td>🦋🦋</td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table>
+          <tr>
+            <td>HTML</td>
+            <td>🦋🦋🦋🦋</td>
+          </tr>
+          <tr>
+            <td>CAD</td>
+            <td>🦋🦋🦋🦋🦋</td>
+          </tr>
+        </table>
+  </table>
+  </td>
+
+  <hr size='2' noshade>
+
+  <h3>MY HOBBIES</h3>
+  <ol type='I'>
+    <li>Singing</li>
+    <li>Coding</li>
+    <li>Playing games</li>
+    <li>Doing NOTHING!</li>I think this is my favourite of all.
+  </ol>
+  <p>Contact me: <a href="{% static "AppThree/contact.html" %}"><em>here</em></a> too.</p>
+</body>
+
+</html>
